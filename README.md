@@ -1,13 +1,5 @@
 # MappingTheInternet
-A repository where tools can be downloaded to create an image based on pinging hosts
-
-# Dependencies
-- Python 3
-- np (numpy)
-- Image (PIL)
-- ThreadPoolExecutor, as_completed (concurrent.futures)
-- Linux (and possibly any other UNIX system) for the use of iputils
-Maybe pip (pip3) is required to install the missing python package in a conda environment.
+A repository where tools can be downloaded to create an image based on pinging hosts; the C++ version (WIP)
 
 # How to use it ?
 1. Enter the first IP to scan
@@ -16,11 +8,6 @@ Maybe pip (pip3) is required to install the missing python package in a conda en
 3. Enter the name of the image to be saved
 4. Enter the folderpath used to save the image
 The image is now saved
-
-# Output example from 1.1.1.0 to 1.2.1.1 (square vs custom width)
-
-![plot](./1_1_1_0_-1_2_1_1-square.png)
-![plot](./1_1_1_0_-1_2_1_1.png)
 
 #
 Warning! This tool can ping a lot of IP. We do not encourage to use this tool as DDoS attack. Please respect GitHub, your Internet provider and the host TOS.
